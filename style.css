@@ -1,0 +1,26 @@
+body {
+  font-family: "Vazirmatn", sans-serif;
+}
+
+#world-map {
+  fill: #aaaaaa;
+}
+
+#world-map path {
+  transition: fill 0.25s;
+  outline: none;
+}
+
+#world-map path.islamic {
+  fill: green;
+  cursor: pointer;
+}
+
+#world-map path.islamic:hover {
+  fill: rgb(0, 55, 0);
+}
+
+.tippy-box {
+  white-space: break-spaces;
+  text-align: center;
+}
