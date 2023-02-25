@@ -4,6 +4,7 @@ body {
 
 #world-map {
   fill: #aaaaaa;
+  width: 100%;
 }
 
 #world-map path {
